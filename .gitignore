@@ -1,0 +1,35 @@
+# --- wygenerowane dane: nie commitujemy 17 MB CSV ---
+data/
+!data/_manifest.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.Python
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Databricks ---
+.databricks/
+*.dbc
+.databricks-login.json
+
+# --- IDE ---
+.idea/
+.vscode/
+*.iml
+
+# --- OS ---
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- sekrety: nigdy, przenigdy ---
+.env
+*.pem
+*.key
+secrets.*
